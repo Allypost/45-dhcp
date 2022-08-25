@@ -1,4 +1,4 @@
-GO_BUILD_FLAGS=--ldflags '-w -s -linkmode external -extldflags "-static"' -asmflags -trimpath -race
+GO_BUILD_FLAGS=--ldflags '-w -s -linkmode external -extldflags "-static"' -asmflags -trimpath
 
 .PHONY: all
 all: client server
